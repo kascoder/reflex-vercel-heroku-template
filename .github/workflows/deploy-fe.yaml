@@ -56,6 +56,6 @@ jobs:
         uses: nicholasgriffintn/github-branch-deployment-action@1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: production
+          BRANCH: vercel
           FOLDER: frontend
           MESSAGE: 'Build: ({sha}) {msg}'
